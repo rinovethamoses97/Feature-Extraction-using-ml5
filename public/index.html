@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="sketch.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.js"></script>
+	<script src="https://unpkg.com/ml5@0.1.2/dist/ml5.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1 id="output"></h1>
+    <input type="button" value="Happy" onclick="addHappyData()">
+    <p id="happyDataCount"></p>
+    <input type="button" value="Sad" onclick="addSadData()">
+    <p id="sadDataCount"></p>
+    <input type="button" value="Train" onclick="train()">
+    <p id="result"></p>
+</body>
+</html>
