@@ -21,6 +21,9 @@ function addHappyData(){
     classifier.addImage('Happy');
     document.getElementById('happyDataCount').innerHTML="Happy count= "+happyDataCount;
 }
+function saveModel(){
+    classifier.save();
+}
 function train(){
     classifier.train(function(lossvalue){
         if(lossvalue){
